@@ -74,6 +74,8 @@ flutter:
     - assets/images/Hello_World.jpg
     - assets/images/Vector.jpg
     - assets/images/washmachine.png
+    - assets/images/tv.png
+    - assets/images/microwave.png
     - assets/images/ATTRAC.png
     - assets/images/search_icon.png
     - assets/images/repairHomeIcon.png

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart';
 import 'package:repair_home/fix/we_offerfix_item.dart';
 import 'package:repair_home/model/we_offerfix_model.dart';
 
@@ -11,11 +12,10 @@ class OfferFixList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 10),
-      height: 50,
+      height: 100,
       child: ListView.separated(
         physics: NeverScrollableScrollPhysics(),
-      // scrollDirection: Axis.vertical,
+      scrollDirection: Axis.vertical,
         itemBuilder: (context, index) => GestureDetector(
           onTap: (){},
           child: WeOfferItem(offerFixList[index]),
@@ -24,5 +24,6 @@ class OfferFixList extends StatelessWidget {
         itemCount: offerFixList.length),
 
     );
+
   }
 }

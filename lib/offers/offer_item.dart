@@ -30,7 +30,7 @@ class OfferItem extends StatelessWidget {
               left: 0,
               right: 0,
               child: Container(
-                height: 40,
+                height: 52,
                 padding: EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(

@@ -16,10 +16,7 @@ class OfferList extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 25),
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) => GestureDetector(
-            onTap: (){
-              // showModalBottomSheet(context: context, builder: (context)
-              // => off)
-            },
+            onTap: (){},
             child: OfferItem(offerList[index]),
           ),
           separatorBuilder: (_, index) => SizedBox(width: 15),

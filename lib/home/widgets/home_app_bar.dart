@@ -24,7 +24,7 @@ class HomeAppBar extends StatelessWidget {
                 child: Stack(
                   children: [
                     Icon(
-                      Icons.read_more,
+                      Icons.menu_outlined,
                       color: Colors.black, size: 35,
                     ),
                   ],
