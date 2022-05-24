@@ -18,4 +18,8 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+<img src="https://github.com/favouronwochei/Repair-Home/blob/master/assets/Screen_Shots/splashscreen.jpg">
+<img src="https://github.com/favouronwochei/Repair-Home/blob/master/assets/Screen_Shots/loginscreen.jpg">
+<img src="https://github.com/favouronwochei/Repair-Home/blob/master/assets/Screen_Shots/registerscreen.jpg">
 <img src="https://github.com/favouronwochei/Repair-Home/blob/master/assets/Screen_Shots/homescreen1.jpg">
+<img src="https://github.com/favouronwochei/Repair-Home/blob/master/assets/Screen_Shots/homescreen2.jpg">
