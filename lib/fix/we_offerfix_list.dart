@@ -12,18 +12,21 @@ class OfferFixList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
-      child: ListView.separated(
-        physics: NeverScrollableScrollPhysics(),
-      scrollDirection: Axis.vertical,
-        itemBuilder: (context, index) => GestureDetector(
-          onTap: (){},
-          child: WeOfferItem(offerFixList[index]),
-        ),
-        separatorBuilder: (_, index) => SizedBox(height: 30,),
-        itemCount: offerFixList.length),
+      padding: EdgeInsets.all(5),
+    height: 100,
+    margin: EdgeInsets.only(bottom: 40),
+    child: ListView.separated(
+      // physics: NeverScrollableScrollPhysics(),
+    scrollDirection: Axis.vertical,
+      shrinkWrap: true,
+      itemBuilder: (context, index) => GestureDetector(
+        onTap: (){},
+        child: WeOfferItem(offerFixList[index]),
+      ),
+      separatorBuilder: (_, index) => SizedBox(height: 10,),
+      itemCount: offerFixList.length),
 
-    );
+      );
 
   }
 }
