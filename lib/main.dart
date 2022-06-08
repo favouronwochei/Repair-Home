@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:repair_home/home/home_page.dart';
+import 'package:repair_home/order/order_page.dart';
 import 'package:repair_home/register/registerScreen.dart';
 import 'package:repair_home/splash/splash_screen.dart';
 import 'package:repair_home/login/login_screen.dart';
@@ -22,7 +23,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home:HomePage(),
+      home:SafeArea(
+          child: OrderPage()
+      ),
     );
   }
 }

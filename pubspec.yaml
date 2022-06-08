@@ -75,6 +75,9 @@ flutter:
     - assets/images/Vector.jpg
     - assets/images/washmachine.png
     - assets/images/tv.png
+    - assets/images/oven.png
+    - assets/images/Rectangle.png
+    - assets/images/orderlogo.png
     - assets/images/microwave.png
     - assets/images/ATTRAC.png
     - assets/images/search_icon.png
